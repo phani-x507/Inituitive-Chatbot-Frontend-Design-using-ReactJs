@@ -9,7 +9,7 @@ body {
 }
 
 .borders {
-  border: 1px solid transparent;
+  border: 1px solid red !important;
 }
 
 button{
@@ -22,6 +22,7 @@ button{
 
   cursor: pointer;
 }
+
 
 .main_div{
   margin: auto;
@@ -42,26 +43,100 @@ box-shadow: 0px 0px 15px 2px rgba(69, 69, 69, 0.307) ;
 display: flex;
 }
 
+/* Inbox Section */
+
 .inbox_section{
   width: 22%;
   border-right:1.8px solid rgb(242, 241, 241) !important;
 
 }
 
+
+
 .heading_h4{
   font-family:"Noto Sans JP", sans-serif;
-  font-weight: 600;
-  letter-spacing: -1.2px;
+  font-weight: 700;
+  font-size: 20px;
+  letter-spacing: -1px;
   margin-left: 20px;
-  margin-top: 8px;
-  
+  margin-top: 6px;
+
 }
+
+.inbox_section_top_buttons{
+  font-size: 12px !important;
+
+}
+
+
+.inbox_section_buttons{
+  display: flex;
+  justify-content: space-around;
+}
+
+.inbox_section hr{
+  margin-top: 15px;
+}
+
+
 
 
 .body_div hr{
   color: rgb(216, 216, 216);
   border-width: 2px;
+  margin-bottom: 0px;
 }
+
+.chat_button_btn{
+  width: 98%;
+  padding-right: 2px !important;
+  margin:2px 1%;
+  border-bottom: 2px solid rgb(221, 221, 221) !important;
+ 
+}
+.chat_button_div{
+  display: flex;
+  width: 100%;
+
+}
+.chat_button_div img{
+  width: 30px;
+  height: 30px;
+  margin-right: 5px;
+  border-radius: 50%;
+}
+.chat_button_text {
+  text-align: left;
+  width: 70%;
+}
+.chat_button_text p{
+  font-size: 12px;
+  font-weight: 600;
+  margin: 0px;
+}
+
+.chat_button_text label{
+  font-size: 10px;
+  font-weight: 600;
+  color: rgb(119, 119, 119);
+}
+
+.chat_button_time{
+  width: 20%;
+  text-align: right;
+  margin-left: 2px;
+}
+
+.chat_button_time_span{
+font-size: 10px;
+border-radius: 10px;
+background-color: #F6E7A8;
+padding: 0px 1px;
+}
+.chat_button_time_span i{
+  
+}
+/* Chat Section */
 
 .chat_section{
 width: 50%;
@@ -77,7 +152,7 @@ width: 50%;
 }
 /* Chat Section Title */
 .chat_section_title_buttons button{
-  margin: 10px 1px;
+  margin: 6px 1px;
   font-size: 10px !important;
   
 
@@ -102,8 +177,6 @@ width: 50%;
 }
 .ai_copilot_section_buttons_agent_btn{
 
-
-
   background:linear-gradient(90deg,rgba(87, 26, 219, 1) 0%, rgba(128, 83, 224, 1) 69%, rgba(199, 87, 180, 1) 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -112,7 +185,7 @@ width: 50%;
   letter-spacing: -0.5px;
   
   position: relative;
-  top: 9px;
+  top: 03px;
   padding-bottom: 10px !important;
   border-bottom: 3.5px solid !important;
   border-bottom-color: rgb(89, 50, 172) !important;
@@ -120,11 +193,11 @@ width: 50%;
 
 .ai_copilot_section_buttons_det_btn{
     font-size: 14px !important;
-  margin-top: 10px;
+  margin-top: 0px;
   letter-spacing: -0.5px;
 }
 .ai_copilot_section hr{
-  margin-top: 8px;
+  margin-top: 5px;
 }
 
 code {
