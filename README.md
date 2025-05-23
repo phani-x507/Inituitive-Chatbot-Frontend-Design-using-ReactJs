@@ -66,7 +66,7 @@ This project is a modern, intuitive chatbot frontend built with ReactJS. It feat
 This project is open source and available under the [MIT License](LICENSE).
 
 ## Author
-- [Your Name](https://github.com/your-username)
+- [Sricharan Sai Krishna Phani Koppula](https://github.com/phani-x507)
 
 ---
 Feel free to contribute or open issues for suggestions and improvements!
