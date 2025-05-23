@@ -195,7 +195,6 @@ function App() {
             <div className='ai_copilot_chat_section_intro borders'>
               <h6>Hi, I'm Fin AI Copilot</h6>
               <p>Ask me anything about this conversation</p>
-
             </div>
 
 

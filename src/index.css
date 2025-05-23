@@ -293,8 +293,7 @@ button {
 .ai_copilot_chat_section_intro{
   margin: auto;
   position: absolute;
-  top: 35%;
-  left: 74%;
+margin: 20px;
   text-align: center;
   
 }
