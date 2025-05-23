@@ -10,7 +10,7 @@ body {
 }
 
 .borders {
-  border: 1px solid red !important;
+  border: 1px solid transparent !important;
 }
 
 button {
@@ -37,6 +37,8 @@ button {
 
 .body_div {
   height: 90vh;
+  min-width:1143px ;
+  max-width: 633px;
   width: 75%;
   background-color: white;
   border-radius: 7px;
@@ -283,6 +285,11 @@ button {
   height: auto;
   display: flex;
   justify-content: space-between;
+  
+}
+.ai_copilot_chat_input_div:hover{
+  border: 1px solid blue  !important  ;
+  box-shadow: 0px 0px 10px 1px rgb(188, 104, 104) !important;
 }
 
 
@@ -346,23 +353,44 @@ button {
 }
 
 .ai_copilot_chat_input{
-  height: 150px;
+  height: 90px;
   position: relative;
-  top :460px;
+  top :520px;
+
 }
+
 .ai_copilot_chat_input button{
   background-color: white;
   box-shadow: 0px 0px 3px 1px rgb(235, 235, 235);
   font-size: 12px;
+  margin-left: 5px;
 
+}
+
+
+.ai_copilot_chat_input_div{
+  background-color: white;
+  margin-top: 10px;
+  width: 95%;
+  margin-left: 2%;
+  margin-right: 2%;
+  border-radius: 8px;
+  padding-left: 10px;
+  box-shadow: 0px 0px 3px 1px rgb(235, 235, 235);
 }
 
 
 .ai_copilot_chat_input_text{
   border: 0px solid transparent;
   outline: none;
-
-  box-shadow: 0px 0px 3px 1px rgb(235, 235, 235);
+    height: 40px;
+    font-family: "Noto Sans JP", sans-serif;
+  font-size: 13px;
+  width: 80%;
+}
+.ai_copilot_chat_input_send i{
+  font-size: 14px;
+  -webkit-text-stroke: 1px !important;
 }
 
 

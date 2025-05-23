@@ -196,7 +196,8 @@ return Object.entries(chatData).map(([key, chat]) => (
              <div className ="ai_copilot_chat_input borders">
               <button className='btn ai_chat_suggestions' ><b>Suggested</b> <i class="bi bi-cash"></i> How do I get a refund?  </button>
               <div className='ai_copilot_chat_input_div borders'>
-              <input type="text" className='ai_copilot_chat_input_text' placeholder='Type your message here...'></input>
+              <input type="text" className='ai_copilot_chat_input_text' placeholder="Ask a question..."></input>
+              <button className="btn ai_copilot_chat_input_send"  style={{'box-shadow':'none'}}><i class="bi bi-arrow-up-short"></i></button>
               </div>
              </div>
           </div>
