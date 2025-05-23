@@ -60,7 +60,7 @@ This project is a modern, intuitive chatbot frontend built with ReactJS. It feat
 
 ## Screenshots
 <!-- Add a screenshot to the public/screenshots folder and update the path below -->
-![Inbox and Chat UI](./screenshots/inbox-chat-ui.png)
+![Inbox and Chat UI]([./screenshots/inbox-chat-ui.png](https://raw.githubusercontent.com/phani-x507/Inituitive-Chatbot-Frontend-Design-using-ReactJs/refs/heads/master/Screenshots/sc1.png))
 
 ## License
 This project is open source and available under the [MIT License](LICENSE).
