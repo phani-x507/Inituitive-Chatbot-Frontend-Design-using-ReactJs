@@ -54,6 +54,8 @@ This project is a modern, intuitive chatbot frontend built with ReactJS. It feat
 - Modify styles in `App.css` to match your branding.
 - Integrate with your backend by replacing static chat data with API calls.
 
+## Live Link
+- [Github Live](https://phani-x507.github.io/Inituitive-Chatbot-Frontend-Design-using-ReactJs/)
 ## Dependencies
 - [ReactJS](https://reactjs.org/)
 - [Bootstrap Icons](https://icons.getbootstrap.com/)
