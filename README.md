@@ -1,6 +1,6 @@
 # Intuitive Chatbot Frontend Design using ReactJS
 
-This project is a modern, intuitive chatbot frontend built with ReactJS. It features a clean, user-friendly interface inspired by popular messaging platforms, and is designed to be easily integrated with any backend chatbot or AI assistant service.
+This project is a modern and intuitive chatbot frontend developed using ReactJS, as part of an assignment for BeyondChats. It offers a clean, user-friendly interface inspired by leading messaging platforms, and is designed for seamless integration with various backend chatbot or AI assistant services.
 
 ## Features
 
